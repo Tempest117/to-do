@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#card{
+  background-color: white;
+  color: black;
+  height: 550px;
+  width: 450px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#loginField{
+  border: none;
+  color: black;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  text-align:  center;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+#passwordField{
+  border: none;
+  color: black;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  text-align:  center;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+#submit {
+  background-color: #4b9bf6; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+#signup {
+  background-color: #4b9bf6; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+
+.title{
+  font-size: 25px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
